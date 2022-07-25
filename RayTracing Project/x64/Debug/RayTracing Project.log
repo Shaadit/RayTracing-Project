@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(14,17): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  RayTracing Project.vcxproj -> E:\Ecole\RTracing\RayTracing Project\x64\Debug\RayTracing Project.exe

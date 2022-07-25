@@ -1,0 +1,7 @@
+﻿  main.cpp
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(20,17): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  RayTracing Project.vcxproj -> E:\Ecole\RTracing\RayTracing Project\x64\Release\RayTracing Project.exe

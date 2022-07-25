@@ -1,0 +1,8 @@
+﻿  main.cpp
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(14,17): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Génération de code en cours
+  10 of 19 functions (52.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  RayTracing Project.vcxproj -> E:\Ecole\RTracing\RayTracing Project\Release\RayTracing Project.exe
