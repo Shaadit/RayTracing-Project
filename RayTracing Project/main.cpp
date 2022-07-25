@@ -36,20 +36,22 @@ vec3 color(const ray& r, hitable* world, int depth)
 int main() {
 
 	//Size of our Window
-	int width = 1600;
-	int height = 800;
+	int width = 800;
+	int height = 400;
 	
-	int ns = 3;
+	int ns = 10;
 
 	sdltemplate::sdl("Ray Tracing", width, height);
 	sdltemplate::loop();
 
-	hitable* list[4];
+	hitable* list[5];
 	list[0] = new sphere(vec3(0,0,-1), 0.5, new lambertian(vec3(0.8,0.3,0.3)));
 	list[1] = new sphere(vec3(0,-100.5,-1), 100,new lambertian(vec3(0.8, 0.8, 0.0)));
 	list[2] = new sphere(vec3(1, 0, -1), 0.5, new metal(vec3(0.8, 0.6, 0.2),0.2));
 	list[3] = new sphere(vec3(-1,0,-1), 0.5, new metal(vec3(0.8, 0.8, 0.8),0.8));
-	hitable_list* world = new hitable_list(list, 4);
+	list[4] = new sphere(vec3(0.0,1.0,-1), 0.5, new metal(vec3(0.8, 0.8, 0.8), 0.7));
+
+	hitable_list* world = new hitable_list(list, 5);
 
 	camera cam;
 
@@ -57,8 +59,6 @@ int main() {
 		for (int x = 0; x < width; x++) {
 
 			vec3 col(0, 0, 0);
-
-			
 
 			for (int s = 0; s < ns; s++)
 			{

@@ -2,10 +2,9 @@
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\vec3.h(33,56): warning C4244: 'argument' : conversion de 'double' en 'const float', perte possible de données
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\vec3.h(128,10): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\hitable_list.h(25,30): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(58,79): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(58,52): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(58,25): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(58,99): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(59,79): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(59,52): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\sphere.h(59,25): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\material.h(28,49): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\material.h(28,73): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\material.h(32,42): warning C4244: 'argument' : conversion de 'const int' en 'float', perte possible de données
@@ -19,4 +18,6 @@ E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(50,72): warning
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(50,78): warning C4305: 'argument' : troncation de 'double' à 'float'
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(51,71): warning C4305: 'argument' : troncation de 'double' à 'float'
 E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(51,77): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(52,74): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ecole\RTracing\RayTracing Project\RayTracing Project\main.cpp(52,81): warning C4305: 'argument' : troncation de 'double' à 'float'
   RayTracing Project.vcxproj -> E:\Ecole\RTracing\RayTracing Project\Debug\RayTracing Project.exe

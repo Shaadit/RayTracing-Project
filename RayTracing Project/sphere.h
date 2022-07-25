@@ -53,9 +53,10 @@ bool sphere::hit(const ray& r, float t_min, float t_max, hit_record& rec) const{
 
 vec3 random_in_unit_sphere()
 {
+	//Manage shadow on spheres
 	vec3 p;
 	do {
-		p = 2.9 * vec3(rand() / (RAND_MAX + 1.0), rand() / (RAND_MAX + 1.0), rand() / (RAND_MAX + 1.0)) - vec3(1, 1, 1);
+		p = 2.0 * vec3(rand() / (RAND_MAX + 1.0), rand() / (RAND_MAX + 1.0), rand() / (RAND_MAX + 1.0)) - vec3(1, 1, 1);
 	} while (p.lenght_squared() >= 1.0);
 
 	return p;
